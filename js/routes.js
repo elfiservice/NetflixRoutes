@@ -1,12 +1,13 @@
 angular.module('NetflixRouter')
        .config(function($routeProvider){
-               console.log($routeProvider)
               $routeProvider.when('/', {
                 templateUrl: 'templates/pages/home/index.html'                
               })
               
               .when('/formconsulta',{
-                  templateUrl: 'templates/pages/form-consulta.html'
+                  templateUrl: 'templates/pages/consulta/form-consulta.html',
+                  controller: 'FormController',
+                  controllerAs: 'form'
               })
               
               .otherwise({
