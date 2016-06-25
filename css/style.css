@@ -45,6 +45,9 @@ main {
     height: 100% !important;
 }
 
+.row .col .s8{
+	width: 100%;
+}
 @media (max-width: 991px){
 
 		.slider {
