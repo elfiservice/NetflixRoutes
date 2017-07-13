@@ -1,4 +1,4 @@
-var apiUrl = "http://netflixroulette.net/api/api.php?";
+var apiUrl = "https://netflixroulette.net/api/api.php?";
 angular.module('NetflixRouter')
        .controller('HomeIndexController', function($http) {
             $http.get("#/index");
